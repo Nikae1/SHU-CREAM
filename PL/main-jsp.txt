@@ -1,0 +1,43 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src ="resources/script/common.js"></script>
+<link rel = "stylesheet" href="resources/css/main.css" />
+
+</head>
+<body>
+<div id= "wrap">
+		<div id="top">
+		<a href="http://192.168.0.2/shu-cream/"><div id="web_font">Choux à la Crème</div></a>		
+		<div class="btn a" onclick="serverCall('1')">Login</div>
+		<div class="btn b" onclick="serverCall('2')">Sign Up</div>
+		</div>
+		<div id="content">
+		<div id="background"></div>
+		</div>
+		<div id="footer"></div>
+	</div>
+
+<div id="Login_Box" class="trippleBox"></div>
+<div class="trippleBox"></div>
+
+<!-- 상태에 따라 사용자에게 띄워줄 Message -->
+<div id="messageBox" style="display:none">
+	<div id="message">Message</div>
+	<div id="messageZone">
+		<div id="messageContent">Server Message</div>
+	<div id="messageAction">
+		<div class="button">OK</div>
+	</div>
+	</div>
+</div>
+</body>
+
+<script>
+
+</script>
+</html>

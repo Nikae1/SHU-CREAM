@@ -1,0 +1,12 @@
+group-step2.jsp의 function
+
+
+function moveMainPage() {
+	location.href = "http://192.168.0.82/web_pos/";
+}
+function movePrePage(previous){
+	location.href = "http://192.168.0.82/web_pos/" + previous != null? previous:"";
+}
+
+
+
